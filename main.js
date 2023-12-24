@@ -20,7 +20,7 @@ function toggleBtn() {
 // HAMBURGER FUNCTION
 hamburger.addEventListener("click", function () {
   navigasi.classList.toggle("down");
-  lampContent.classList.add("index");
+  // lampContent.classList.add("index");
 });
 
 

@@ -292,21 +292,21 @@ transition: 0.3s;
   }
   .navbar {
     justify-content: space-between;
-    height: 40px;
+    height: 50px;
     width: 100%;
     align-items: center;
     z-index: 99;
   }
   .navbar .title{
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 24px;
   }
   .navbar .toggles{
     margin-right: 10px;
   }
   .navbar ul {
-    background-color: rgba(0, 0, 3, .3);
-    display: block;
+    background-color: rgba(0, 0, 3, .6);
+    display: none;
     backdrop-filter: blur(3px);
     width: 100%;
     text-align: center;
@@ -329,7 +329,7 @@ transition: 0.3s;
     position: absolute;
     font-size:1.5rem;
     cursor: pointer;
-    right: 40px;
+    right: 10px;
     top: 6px;
     display: block;
     margin:3px;
@@ -341,36 +341,23 @@ transition: 0.3s;
     transition: .5s;
   }
   ul.down {
-    display:none;
+    display:block;
 }
 .navbar .toggles{
   display: flex;
-  display: flex;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }
 .navbar .hamburger{
-  width: 15px;
-  height: 12px;
+  width: max-content;
+  height: max-content;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2px;
+  justify-content: center;
+  align-items: center;
 }
-.navbar .hamburger .child-1{
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
-.navbar .hamburger .child-2{
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
-.navbar .hamburger .child-3{
-  width: 100%;
-  height: 2px;
-  background-color: white;
+.navbar .hamburger i{
+  font-size: 20px;
 }
   .navbar ul li{
     color: #ffff;
@@ -402,14 +389,15 @@ transition: 0.3s;
     gap: 10px;
   }
   .text #linght {
-    font-size : 2.9rem;
+    font-size : 3rem;
     margin: 0px;
     line-height: 37px;
   }
   .text p {
-    font-size : 9px;
+    font-size : 10px;
     letter-spacing : 1px;
     margin : 3px;
+    font-weight: 500;
   }
   .text button{
   border: 1px solid #fff;
@@ -451,8 +439,15 @@ transition: 0.3s;
     width: 1rem;
     height: 1rem;
   }
-  .index{
-    z-index: -99;
+  .navbar #toggle{
+    width: 40px;
+    height: 20px;
+    padding: 0 2px;
+    border: 1.9px solid var(--secondary);
+  }
+  .navbar #toggle div{
+    width: 15px;
+    height: 15px;
   }
   .geser {
     margin-left: 18px;
