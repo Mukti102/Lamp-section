@@ -362,7 +362,7 @@ transition: 0.3s;
   .navbar ul li{
     color: #ffff;
     padding: 8px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .navbar ul li:hover{
     color: hotpink;
