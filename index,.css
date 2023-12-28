@@ -355,9 +355,9 @@ transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.navbar .hamburger i{
   font-size: 20px;
+  background: none;
+  border: none;
 }
   .navbar ul li{
     color: #ffff;
